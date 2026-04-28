@@ -1,4 +1,4 @@
-# 🎸 Landing Page – Rock Band (HTML & CSS Assessment)
+# 🎸 The Bloody Thunder
 
 ## 📌 Project Overview
 

@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Shattered Riffs</title>
+    <title>The Bloody Thunder</title>
     <link rel="shortcut icon" href="./assets/icons/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
-    <!-- HEADER -->
+    <!-- Added description to the pics-->
     <header class="header">
-        <div class="container header__content">
-            <h1 class="logo">Shattered Riffs</h1>
+        <div class="container header_content">
+            <h1 class="logo">
+                <img src="assets/icons/logo.ico" alt="The bloody thunder logo">
+                The Bloody Thunder
+            </h1>
 
-            <!-- Nav for desktop / hamburger for mobile -->
-            <nav class="nav">
+            
+            <nav class="nav" id="nav">
                 <ul class="nav__list">
                     <li><a href="#events">Events</a></li>
                     <li><a href="#about">About</a></li>
@@ -24,28 +27,26 @@
                 </ul>
             </nav>
 
-            <!-- Hint for JS (optional extra points) -->
-            <button class="menu-toggle">☰</button>
+           
+            <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
         </div>
     </header>
 
     <main>
 
-        <!-- HERO -->
         <section class="hero">
-            <div class="hero__overlay">
-                <h2>Rock the Night</h2>
-                <p>Upcoming Tour</p>
+            <img src="assets/img/img-5.jpg" alt="Rock concert stage" class="hero_img">
+            <div class="hero_overlay">
+                <h2 class="hero-text-t">Rock the Night</h2>
+                <p class="hero-text-p">Upcoming Tour</p>
                 <a href="#events" class="btn">View Events</a>
             </div>
         </section>
 
-        <!-- EVENTS -->
         <section id="events" class="events container">
             <h2>Upcoming Events</h2>
 
-            <!-- Extra points: table -->
-            <table class="events__table">
+            <table class="events_table">
                 <thead>
                     <tr>
                         <th>Date</th>
@@ -55,42 +56,40 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr class="tr-hover tr1">
                         <td>15 May</td>
                         <td>Madrid</td>
                         <td>Sala Sol</td>
-                        <td><button>Buy</button></td>
+                        <td><button class="tb-button">Buy</button></td>
                     </tr>
-                    <tr>
+                    <tr class="tr-hover tr2">
                         <td>18 May</td>
                         <td>Barcelona</td>
                         <td>Razzmatazz</td>
-                        <td><button>Buy</button></td>
+                        <td><button class="tb-button">Buy</button></td>
                     </tr>
-                    <tr>
+                    <tr class="tr-hover tr3">
                         <td>22 May</td>
                         <td>Valencia</td>
                         <td>Moon Club</td>
-                        <td><button>Buy</button></td>
+                        <td><button class="tb-button">Buy</button></td>
                     </tr>
                 </tbody>
             </table>
         </section>
 
-        <!-- ABOUT -->
         <section id="about" class="about container">
-            <h2>About the Band</h2>
-
-            <div class="about__content">
-                <img src="./assets/img/img-1.jpg" alt="Band photo">
+            <div class="about_content">
+                <img src="./assets/img/img-2.jpg" alt="Band photo">
 
                 <article>
+                    <h2>About the Band</h2>
                     <p>
-                        Shattered Riffs is a high-energy rock band known for powerful live performances
+                        The Bloody Thunder is a high-energy rock band known for powerful live performances
                         and raw sound.
                     </p>
 
-                    <!-- Required list -->
+        
                     <h3>Our Influences</h3>
                     <ul>
                         <li>Classic Rock</li>
@@ -101,28 +100,28 @@
             </div>
         </section>
 
-        <!-- MEDIA -->
+       
         <section id="media" class="media container">
             <h2>Multimedia</h2>
 
             <div class="media__grid">
-                <img src="./assets/img/img-2.jpg" alt="">
-                <img src="./assets/img/img-3.jpg" alt="">
-                <img src="./assets/img/img-4.jpg" alt="">
-                <img src="./assets/img/img-5.jpg" alt="">
-                <img src="./assets/img/img-6.jpg" alt="">
-                <img src="./assets/img/img-7.jpg" alt="">
+                <img src="./assets/img/img-2.jpg" alt="Band live performance" class="grid-broad">
+                <img src="./assets/img/img-5.jpg" alt="Lead singer on stage" class="grid-big">
+                <img src="./assets/img/img-3.jpg" alt="Guitarist playing live" class="grid-big">
+                <img src="./assets/img/img-4.jpg" alt="Crowd enjoying the concert" class="grid-broad">
+                <img src="./assets/img/img-1.jpg" alt="Drummer in action" class="grid-big">
+                <img src="./assets/img/img-6.jpg" alt="Band backstage" class="grid-broad">
             </div>
         </section>
 
     </main>
 
-    <!-- FOOTER -->
+  
     <footer id="contact" class="footer">
         <div class="container footer__content">
-            <p>© <span id="year"></span> Shattered Riffs</p>
+            <p>© <span id="year"></span> The Bloody Thunder</p>
 
-            <!-- Another possible list -->
+           
             <ul class="social">
                 <li><a href="#">Instagram</a></li>
                 <li><a href="#">Spotify</a></li>
