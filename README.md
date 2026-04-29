@@ -1,29 +1,35 @@
-# 🎸 The Bloody Thunder
+# The Bloody Thunder - Band Landing Page
 
-## 📌 Project Overview
-
-This project is a **starter template** for a performance assessment focused on building a responsive landing page for a rock band.
-
-The goal is to transform this base into a **visually engaging, responsive, and well-structured website** that promotes the band, their identity, and upcoming events.
+**The Bloody Thunder** is a modern, high-energy responsive landing page designed for a rock band. It features a dark, "metal" aesthetic, a dynamic tour schedule, and a responsive media gallery.
 
 ---
 
-## 🎯 What is Expected
-
-You are expected to:
-
-* Build a complete landing page using **semantic HTML5**.
-* Apply **CSS3 styles** to achieve a strong visual identity (rock style).
-* Implement **responsive design** for both:
-
-  * Desktop (>1024px)
-  * Mobile
-* Use **Flexbox and/or Grid** where appropriate.
-* Ensure the page is **clean, readable, and well-organized**.
+## Live Demo
+*(Replace this link with your hosted URL)*
+[View Live Site](https://saratailora.github.io/performance-test-M2/)
 
 ---
 
-## 🧱 Project Structure
+## Features
+
+* **Responsive Navigation:** Includes a hamburger menu for mobile devices powered by JavaScript.
+* **Hero Section:** A bold, full-screen entry point with an adaptive overlay and call-to-action.
+* **Tour Management:** A structured, hover-effect table listing upcoming concert dates, cities, and venues.
+* **Band Bio:** An "About" section using CSS Grid to blend imagery with the band's history and influences.
+* **Dynamic Media Gallery:** An adaptive image grid showcasing high-quality band photography.
+* **Auto-Updating Footer:** JavaScript implementation to ensure the copyright year is always current.
+
+---
+
+## Tech Stack
+
+* **HTML5:** Semantic markup for SEO and accessibility.
+* **CSS3:** Custom styling using Flexbox, CSS Grid, and Media Queries.
+    * **Fonts:** Custom Google Fonts (*Metal Mania*, *Cinzel*, *Saira Stencil*).
+* **JavaScript (ES6+):** Logic for DOM manipulation (Mobile menu toggle and dynamic year).
+---
+
+## Project Structure
 
 ```
 ├── assets
@@ -39,149 +45,27 @@ You are expected to:
 ├── index.html
 └── README.md
 ```
+---
+## Technologies Used
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+---
+
+## How to Run
+
+1. Clone this repository or download the project files.
+2. Make sure all files and folder are in the same folder:
+   * `assets`
+   * `index.html`
+3. Open `index.html` in any modern web browser such as:
+   * Chrome
+   * Firefox
+   * Edge
 
 ---
 
-## 🧩 HTML Guidelines
+## Author
 
-Your `index.html` already includes the base structure.
-
-You must:
-
-* Use semantic tags:
-
-  * `<header>`
-  * `<nav>`
-  * `<main>`
-  * `<section>`
-  * `<article>`
-  * `<footer>`
-
-* Include the following sections:
-
-  * Hero (main visual section)
-  * Events (band tour dates)
-  * About (band info)
-  * Multimedia (images or media content)
-
-* Add at least one **unordered list (`<ul>`)**:
-
-  * Influences
-  * Values
-  * Social links
-
-* (Optional – Extra Points)
-
-  * Use a **table (`<table>`)** for events
-
-👉 Focus on **clean structure and readability**.
-
----
-
-## 🎨 CSS Guidelines
-
-The provided `style.css` is intentionally minimal.
-
-You should:
-
-* Define your own:
-
-  * Colors (rock style recommended)
-  * Typography
-  * Spacing
-
-* Apply layout techniques:
-
-  * Flexbox
-  * Grid
-
-* Implement responsive design using **media queries**
-
-* Ensure:
-
-  * Proper spacing between sections
-  * Visual hierarchy (titles, buttons, content)
-  * Consistent styling
-
-👉 Avoid writing everything in one block. Organize your CSS clearly.
-
----
-
-## 📱 Responsive Design
-
-Your site **must adapt** to different screen sizes.
-
-Minimum requirement:
-
-* Desktop layout (>1024px)
-* Mobile layout
-
-Hints:
-
-* Stack elements vertically on mobile
-* Consider navigation behavior (e.g., hamburger menu)
-* Resize images and text properly
-
----
-
-## 🖼️ Images & Assets
-
-Inside `/assets/img` you will find:
-
-* Multiple images (`img-1.jpg` to `img-10.jpg`)
-* A visual reference: `guide.png`
-
-Use these images to:
-
-* Build the hero section
-* Populate the gallery
-* Add visual identity to the page
-
-⚠️ The guide is a **reference**, not something to copy exactly.
-
----
-
-## ⚙️ JavaScript (Optional)
-
-The file `main.js` is included for optional enhancements:
-
-* Mobile menu toggle
-* Simple interactions
-
-This is **not required**, but can give extra value.
-
----
-
-## 📝 Good Practices
-
-* Keep your code **clean and readable**
-* Use indentation consistently
-* Write comments when necessary (in English)
-* Organize sections clearly
-
----
-
-## 🚀 How to Run
-
-1. Download or clone the project
-2. Open `index.html` in your browser
-
-No installation required.
-
----
-
-## 🧠 Final Note
-
-This project is not about copying a design exactly.
-
-It is about:
-
-* Understanding structure
-* Making design decisions
-* Applying responsive techniques
-
-Your solution should reflect your own approach while meeting the requirements.
-
----
-
-🔥 Good luck and rock on!
+**Sara Carolina Tailor Acosta**  
