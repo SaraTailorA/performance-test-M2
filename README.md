@@ -5,7 +5,6 @@
 ---
 
 ## Live Demo
-*(Replace this link with your hosted URL)*
 [View Live Site](https://saratailora.github.io/performance-test-M2/)
 
 ---

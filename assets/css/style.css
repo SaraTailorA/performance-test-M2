@@ -225,7 +225,9 @@ nav a:hover{
 
 
 .about {
-    text-align: center;
+    text-align:center;
+    
+
 }
 
 .about__content {
@@ -245,27 +247,33 @@ nav a:hover{
 }
 
 .about__content article {
-    padding: 3.5rem;
-    display: flex;
+   
+   display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    align-items: center; 
+    gap: 2rem;
+    text-align: center;
 }
 
 .about__content h2,
 .about__content h3 {
     font-size: 3rem;
+
 }
 
 .about__content ul {
-    padding-left: 1.5rem;
+   padding-left: 0;
+   list-style-position: inside;
+   width: 100%;
+    
 }
 
 .about__content ul li {
     padding: 10px;
-    list-style: upper-roman;
     color: #c43b3b;
     font-size: 2rem;
+    text-align: center;
 }
 
 
